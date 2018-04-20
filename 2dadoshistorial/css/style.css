@@ -1,7 +1,6 @@
 .container {
   margin: auto;
   display: flex-block;
-
 }
 
 .dados {
@@ -20,7 +19,6 @@
   margin-bottom: 10px;
   margin-left: 10px;
 }
-
 
 #resultado1, #resultado2 {
   text-align: center;
@@ -52,4 +50,3 @@
 .titulo {
   text-align: center;
 }
-

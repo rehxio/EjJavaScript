@@ -1,0 +1,68 @@
+// out: style.css
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: inline-grid;
+    background: lightskyblue;
+    width: 400px;
+    border: 2px solid;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.marcador {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 45px;
+    background: lightcyan;
+    width: 340px;
+    height: 100px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-family: Roboto, sans-serif;
+}
+
+.equipo1, .equipo2 {
+    text-align: center;
+}
+
+.equipo1 {
+    order: 1 ;
+}
+
+.equipo2 {
+    order: 3 ;
+}
+
+.divisor {
+    order: 2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombreequipo, .resultado {
+    display: block;
+}
