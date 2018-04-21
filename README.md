@@ -8,3 +8,4 @@ Aquí se irán poniendo los enlaces a los ejercicios hechos en JavaScript.
 | El mismo que el anterior pero con historial. |[Ver ejercicio](/2dadoshistorial/index.html)|
 | Bingo con 2 usuarios. |[Ver ejercicio](/bingo/index.html)|
 | Soccer 1.0. |[Ver ejercicio](/soccer1/index.html)|
+| Soccer 2.0. |[Ver ejercicio](/soccer2/index.html)|
