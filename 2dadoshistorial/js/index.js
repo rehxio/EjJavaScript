@@ -21,6 +21,6 @@ function lanzar() {
 }
 
 function calcular() {
-  cantidad = Math.round(Math.random() * (6 - 1) + 1);
+  var cantidad = Math.round(Math.random() * (6 - 1) + 1);
   return cantidad;
 }

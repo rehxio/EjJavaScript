@@ -1,3 +1,5 @@
+"use strict";
+
 var dom = {
   resJ: document.querySelector(".resjugador"),
   resC: document.querySelector(".rescpu"),
@@ -6,7 +8,7 @@ var dom = {
 };
 
 /*Se generan los números del 1 al 90, se desordenan y se almacenan en el array. Luego se coge solo el primero y se elimina del array para que no se repita.*/
-numbersGame = _.shuffle(_.range(1, 91));
+var numbersGame = _.shuffle(_.range(1, 91));
 
 var generaNumerosJuego = function generaNumerosJuego(numbersGame) {
 
@@ -19,7 +21,7 @@ var generaNumerosJuego = function generaNumerosJuego(numbersGame) {
 /*Tenemos 2 arrays, uno para jugador y otro para cpu, donde vamos a almacenar los 15 primeros números y retirarlos de la lista generada anteriormente.*/
 
 var generaNumerosJugadores = function generaNumerosJugadores() {
-  jugador = _.shuffle(_.range(1, 91));
+  var jugador = _.shuffle(_.range(1, 91));
   jugador = jugador.splice(0, 15);
   return jugador;
 };

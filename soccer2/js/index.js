@@ -194,13 +194,13 @@ var generaResultados = function generaResultados(equipo1, equipo2) {
 	divResultado1.className = 'resultado';
 
 	imgLogo1.src = logos["" + equipo1];
-	imgLogo1.width = '15';
-	imgLogo1.height = '15';
+	imgLogo1.width = 15;
+	imgLogo1.height = 15;
 	divNombreEquipo1.textContent = "" + equipo1;
 	divResultado1.textContent = "" + goles1;
 	imgLogo2.src = logos["" + equipo2];
-	imgLogo2.width = '15';
-	imgLogo2.height = '15';
+	imgLogo2.width = 15;
+	imgLogo2.height = 15;
 	divNombreEquipo2.textContent = "" + equipo2;
 	divResultado2.textContent = "" + goles2;
 

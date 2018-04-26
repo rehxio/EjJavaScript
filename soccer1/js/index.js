@@ -1,5 +1,6 @@
 "use strict";
 
+// @ts-check
 var dom = {
     marcador: document.querySelector(".marcador"),
     equipo1: document.querySelector(".equipo1"),
@@ -73,16 +74,15 @@ var generaResultado = function generaResultado(equipo1, equipo2) {
     divResultado1.className = 'resultado';
     divResultado1.className = 'resultado';
 
-    debugger;
     imgLogo1.src = logos["" + equipo1];
-    imgLogo1.width = '15';
-    imgLogo1.height = '15';
+    imgLogo1.width = 15;
+    imgLogo1.height = 15;
     divNombreEquipo1.textContent = "" + equipo1;
     divResultado1.textContent = "" + goles1;
     divDivisor.textContent = " - ";
     imgLogo2.src = logos["" + equipo2];
-    imgLogo2.width = '15';
-    imgLogo2.height = '15';
+    imgLogo2.width = 15;
+    imgLogo2.height = 15;
     divNombreEquipo2.textContent = "" + equipo2;
     divResultado2.textContent = "" + goles2;
 
